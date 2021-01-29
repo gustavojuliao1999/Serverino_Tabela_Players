@@ -1,0 +1,17 @@
+docopt>=0.6.2
+monotonic
+requests>=2.0
+six>=1.6
+
+[development]
+pylint
+
+[docs]
+sphinx
+sphinx_rtd_theme
+
+[test]
+mock==1.0.1
+pytest>=3.6.0
+pytest-cov
+pytest-timeout
